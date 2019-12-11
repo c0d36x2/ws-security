@@ -3,7 +3,7 @@ This extension calculate a valid WS security token for every request (In Proxy, 
 It follow <a href="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">Web Services Security (WS-Security, WSS) published by OASIS</a>
 
 ## Using Burp WS-Security
-<li>This extension only change requests targeting in sope item. So you need to add the target in the scope.</li>
+<li>This extension only change requests targeting in scope item. So you need to add the target in the scope.</li>
 
 <li>Go to the WSSecurity tab, fill the password field, choose if you need the nonce to be base64 encoded or not.</li>
 
