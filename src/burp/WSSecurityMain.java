@@ -65,6 +65,7 @@ public class WSSecurityMain implements ITab {
 						+ "    <li>This extension will log in the Extender UI every request after change if you need to debug.</li>"
 						+ "</ol><br>"
 						+ "Unless you have specific needs, you shouldn't touch the advanced option and not enable the hash of the password.<br><br></body></html>");
+		helpLabel.putClientProperty("html.disable", null);
 		constraints.gridx = 0;
 		constraints.gridy = 0;
 		constraints.anchor = GridBagConstraints.NORTHWEST;
