@@ -2,11 +2,12 @@ Uuid: i5431k07za13636g0o9a1733ke7h10g3
 ExtensionType: 1
 Name: WS Security
 RepoName: ws-security
-ScreenVersion: 1.0
-SerialVersion: 4
+ScreenVersion: 1.0a
+SerialVersion: 6
 MinPlatformVersion: 0
 ProOnly: False
 Author: Robin Fassina-Moschini
 ShortDescription: Generate and replace for every request valid token for WS Security
 EntryPoint: build/libs/ws-security-all.jar
 BuildCommand: gradle fatJar
+SupportedProducts: Pro, Community
